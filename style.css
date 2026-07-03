@@ -1,0 +1,77 @@
+* Cor de fundo da página */
+body {
+    background-color: #b461eb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Caixa principal */
+.container {
+    background-color: rgb(198, 133, 224);
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid rgb(193, 117, 228);
+    border-radius: 10px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: rgb(47, 67, 52);
+    font-size: 36px;
+}
+
+/* Subtítulos */
+h2 {
+    color: rgb(49, 9, 60);
+    font-size: 26px;
+}
+
+/* Texto */
+p, li {
+    font-size: 18px;
+}
+
+/* Imagem */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid 
+    #b9f3c9;
+    border-radius: 10px;
+}
+
+/* Infos extras */
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Flexbox */
+.conteudo {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Ingredientes */
+.ingredientes {
+    background-color: #b9f3c9;
+    padding: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 45%;
+    border-radius: 20px;
+}
+
+/* Modo de preparo */
+.preparo {
+    background-color: #b9f3c9;
+    padding: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 55%;
+    border-radius: 20px;
+}
